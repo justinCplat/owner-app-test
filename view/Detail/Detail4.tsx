@@ -1,11 +1,11 @@
 import {Text, View} from 'react-native';
 
-const Detail = () => {
+const Detail4 = () => {
   return (
     <View>
-      <Text>Detail</Text>
+      <Text>Detail4</Text>
     </View>
   );
 };
 
-export default Detail;
+export default Detail4;
