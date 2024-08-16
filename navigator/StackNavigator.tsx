@@ -6,8 +6,9 @@ import ModalDetail1 from '../view/Modal/ModalDetail1';
 import ModalHome from '../view/Modal/ModalHome';
 import ModalDetail2 from '../view/Modal/ModalDetail2';
 import ModalDetail3 from '../view/Modal/ModalDetail3';
+import {RootStackParamList} from '../types/react-navigation';
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator<RootStackParamList>();
 
 const StackNavigator = () => {
   return (
